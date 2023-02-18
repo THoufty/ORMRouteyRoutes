@@ -35,9 +35,8 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
   Tag.create({
-    where: {
     tag_name: req.body.tag_name,
-  }}).then((dataFromTheCreate) => {
+  }).then((dataFromTheCreate) => {
     res.status(200).json(dataFromTheCreate)
   }).catch((err) => {
     res.status(400).json(err)

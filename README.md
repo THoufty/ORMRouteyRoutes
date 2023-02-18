@@ -19,6 +19,9 @@
   ## Usage
   
   Provide instructions and examples for use. change directory to the develope directory and then source the schema, seed the database, and run npm start to get to a place where you can call the routes in insomnia.
+
+  link to my routes video
+  https://drive.google.com/file/d/1WMn_n7WNdw6KNo9A9VX7B4dcqBeRNbJE/view
   
  
   ## License
